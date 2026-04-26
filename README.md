@@ -37,11 +37,14 @@ Estudos para CKS (Certified Kubernetes Security Specialist).
 ### Networking
 - [kube-proxy e port-forward](networking/kube-proxy-port-forward.md) — iptables, fluxo do port-forward, NodePort
 - [Ingress — On-prem vs Managed](networking/ingress-onprem-vs-managed.md) — MetalLB, GKE NEG, Gateway API
+- [CNI vs kube-proxy](networking/cni-kube-proxy.md) — divisão de responsabilidades, Cilium kube-proxy replacement, overlay vs underlay, VPC-native
 
 ### Hardening
 - [Verificar Binários](hardening/verify-binaries.md) — sha256sum, sha512sum, imagens com digest
 - [Cluster Upgrade](hardening/cluster-upgrade.md) — drain, uncordon, kubeadm step-by-step
 - [Node Metadata](hardening/node-metadata.md) — 169.254.169.254, NetworkPolicy, Workload Identity
+- [Seccomp](hardening/seccomp.md) — syscalls, modos BPF, ações, runtimes, perfis no k8s, managed clusters, Tracee
+- [eBPF](hardening/ebpf.md) — verifier, hooks, BPF maps, Cilium, Falco/Tracee, conexão com seccomp
 
 ### Audit
 - [Kubernetes Audit Logging](audit/kubernetes-audit-logging.md) — on-prem vs managed, policy, backends
