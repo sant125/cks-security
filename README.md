@@ -45,6 +45,8 @@ Estudos para CKS (Certified Kubernetes Security Specialist).
 - [Node Metadata](hardening/node-metadata.md) — 169.254.169.254, NetworkPolicy, Workload Identity
 - [Seccomp](hardening/seccomp.md) — syscalls, modos BPF, ações, runtimes, perfis no k8s, managed clusters, Tracee
 - [eBPF](hardening/ebpf.md) — verifier, hooks, BPF maps, Cilium, Falco/Tracee, conexão com seccomp
+- [AppArmor](hardening/apparmor.md) — LSM path-based, profiles, aa-genprof, k8s, managed clusters
+- [Capabilities](hardening/capabilities.md) — conjuntos (Bounding/Permitted/Effective), runtime defaults, por que non-root importa
 
 ### Audit
 - [Kubernetes Audit Logging](audit/kubernetes-audit-logging.md) — on-prem vs managed, policy, backends
