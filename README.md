@@ -33,6 +33,7 @@ Estudos para CKS (Certified Kubernetes Security Specialist).
 
 ### Admission
 - [Webhooks](admission/webhooks.md) — plugins builtin, ValidatingWebhook, MutatingWebhook, failurePolicy, exemplo em Go, OPA/Kyverno
+- [PSA e PSS](admission/psa-pss.md) — PSP deprecation, níveis privileged/baseline/restricted, modos enforce/audit/warn, namespace labels, exemptions, migração
 
 ### Kubelet
 - [Segurança](authentication/kubelet-ports.md) — portas, anonymous auth, modo webhook
