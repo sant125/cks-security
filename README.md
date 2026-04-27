@@ -31,6 +31,9 @@ Estudos para CKS (Certified Kubernetes Security Specialist).
 ### RBAC
 - [Roles e Bindings](rbac/roles-and-bindings.md) — Role, ClusterRole, RoleBinding, ClusterRoleBinding, privilege escalation
 
+### Admission
+- [Webhooks](admission/webhooks.md) — plugins builtin, ValidatingWebhook, MutatingWebhook, failurePolicy, exemplo em Go, OPA/Kyverno
+
 ### Kubelet
 - [Segurança](authentication/kubelet-ports.md) — portas, anonymous auth, modo webhook
 
